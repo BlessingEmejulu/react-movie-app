@@ -14,6 +14,7 @@ function App() {
           <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy without the Hassel</h1>
         </header>
         <Search searhTerm={searhTerm} setSearchTerm={setSearchTerm} />
+        <h1 className='text-white'>{searhTerm}</h1>
       </div>
     </main>
 
